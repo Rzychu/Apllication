@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <RadioButton
+        android:id="@+id/szeregowo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp" />
+
+    <RadioButton
+        android:id="@+id/rownolegle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-39dp" />
+
+</RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-195dp"
+        android:layout_marginTop="105dp"
+        android:text="Szeregowo"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="110dp"
+        android:text="Równolegle"
+        android:textSize="20sp" />
+    </TableRow>
+</TableLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Podaj wartości:"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="160dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pole1"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="60dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pole2"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="240dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="310dp"
+        android:id="@+id/wynikrez" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przelicz"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="370dp"
+        android:id="@+id/przelicz1" />
+
+
+
+
+
+
+</RelativeLayout>

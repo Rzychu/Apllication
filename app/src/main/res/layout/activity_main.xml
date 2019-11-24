@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:text="Wybierz operacje którą chcesz wykonać: " />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+    <Button
+        android:id="@+id/przycisk_temperatura"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:text="Przeliczanie temperatury"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:text="Konwerter jednostek"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <TableRow>
+    <Button
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:id="@+id/button3"
+        android:text="Rezystancja"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:text="Rezystancja zas." />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:id="@+id/button4"
+                android:text="Kontakt"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:id="@+id/exit"
+                android:text="Wyjście"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

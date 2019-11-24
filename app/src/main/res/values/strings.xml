@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Praca inżynierska</string>
+
+    <string-array name="jednostki">
+        <item id="1">Milimetry</item>
+        <item id="2">Centymetr</item>
+        <item>Decymetr</item>
+        <item>Metr</item>
+        <item>Kilometr</item>
+    </string-array>
+    <string-array name="kolory">
+        <item id="1">Czarny</item>
+        <item id="2">Brązowy</item>
+        <item id="3">Czerwony</item>
+        <item id="4">Pomarańczowy</item>
+        <item id="5">Żółty</item>
+        <item id="6">Zielony</item>
+        <item id="7">Niebieski</item>
+        <item id="8">Fioletowy</item>
+        <item id="9">Szary</item>
+        <item id="10">Biały</item>
+        <item id="11">Złoty</item>
+        <item id="12">Srebrny</item>
+    </string-array>
+</resources>

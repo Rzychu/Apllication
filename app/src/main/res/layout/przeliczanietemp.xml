@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:text="Przeliczanie temperatury"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="45dp"
+        android:text="Stopnie Celsjusza: "
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="42dp" />
+
+    <EditText
+        android:id="@+id/Celsjusz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="195dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stopnie Kelwina: "
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="206dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="190dp"/>
+
+    <EditText
+        android:id="@+id/Kelwin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="171dp"/>
+
+    <Button
+        android:id="@+id/wynikkelwin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przelicz Stopnie Celsjusza na Kelwina"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="45dp"/>
+
+    <Button
+        android:id="@+id/wynikcelsjusz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przelicz Stopnie Kelwina na Celsjusza"
+        android:layout_marginTop="304dp"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="410dp"
+        android:ems="6"/>
+
+
+</RelativeLayout>
